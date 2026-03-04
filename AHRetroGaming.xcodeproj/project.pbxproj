@@ -21,9 +21,11 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Actions.sks,
+				AHTileSet.swift,
 				Assets.xcassets,
 				GameScene.sks,
 				GameScene.swift,
+				SorceryCPCGameScene.swift,
 			);
 			target = E1AF00502F586D980029E43F /* AHRetroGaming iOS */;
 		};
@@ -31,9 +33,11 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Actions.sks,
+				AHTileSet.swift,
 				Assets.xcassets,
 				GameScene.sks,
 				GameScene.swift,
+				SorceryCPCGameScene.swift,
 			);
 			target = E1AF00612F586D980029E43F /* AHRetroGaming macOS */;
 		};
