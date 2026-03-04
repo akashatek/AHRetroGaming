@@ -6,9 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E1AF007E2F586F7F0029E43F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E1AF007D2F586F7F0029E43F /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		E1AF00512F586D980029E43F /* AHRetroGaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHRetroGaming.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1AF00622F586D980029E43F /* AHRetroGaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHRetroGaming.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1AF007D2F586F7F0029E43F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -77,6 +82,7 @@
 		E1AF00432F586D950029E43F = {
 			isa = PBXGroup;
 			children = (
+				E1AF007D2F586F7F0029E43F /* README.md */,
 				E1AF00482F586D950029E43F /* AHRetroGaming Shared */,
 				E1AF00532F586D980029E43F /* AHRetroGaming iOS */,
 				E1AF00632F586D980029E43F /* AHRetroGaming macOS */,
@@ -183,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1AF007E2F586F7F0029E43F /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +309,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.akashatek.game.AHRetroGaming;
 				PRODUCT_NAME = AHRetroGaming;
@@ -337,7 +344,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.akashatek.game.AHRetroGaming;
 				PRODUCT_NAME = AHRetroGaming;
